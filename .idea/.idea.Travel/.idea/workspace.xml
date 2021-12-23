@@ -5,23 +5,7 @@
     <projectFile profileName="IIS Express">src/presentation/Travel.WebApi/Travel.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/TourList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/TourPackage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Enums/Currency.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Contexts/TravelDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Migrations/20211222005253_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Migrations/20211222005253_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Migrations/TravelDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Travel.Domain/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Travel.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Travel.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +27,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$USER_HOME$/Public/Work/Eterex/exchange-back" />
@@ -97,8 +83,16 @@
       <workItem from="1640130247323" duration="207000" />
       <workItem from="1640130492726" duration="747000" />
       <workItem from="1640131309159" duration="793000" />
-      <workItem from="1640132340183" duration="2419000" />
+      <workItem from="1640132340183" duration="2484000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Database">
+      <created>1640134942257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640134942257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +115,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Database" />
   </component>
 </project>
