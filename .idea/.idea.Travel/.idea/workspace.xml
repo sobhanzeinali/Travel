@@ -5,14 +5,13 @@
     <projectFile profileName="IIS Express">src/presentation/Travel.WebApi/Travel.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="Add TourListController">
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="Add TourListController.cs">
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/LoggingBehaviors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/PerformanceBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/UnhandledExceptionBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/ValidationBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1640130492726" duration="747000" />
       <workItem from="1640131309159" duration="793000" />
       <workItem from="1640132340183" duration="2484000" />
-      <workItem from="1641507796980" duration="680000" />
+      <workItem from="1641507796980" duration="4491000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Database">
       <created>1640134942257</created>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641507837833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add TourListController.cs">
+      <created>1641508573664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641508573664</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +139,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Database" />
     <MESSAGE value="Add TourListController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TourListController" />
+    <MESSAGE value="Add TourListController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TourListController.cs" />
   </component>
 </project>
