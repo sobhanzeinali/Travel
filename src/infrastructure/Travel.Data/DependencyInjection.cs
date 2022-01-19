@@ -28,6 +28,7 @@ public static class DependencyInjection
     public static IServiceCollection AddMigrationService(this IServiceCollection services, IConfiguration config)
     {
         var postgresOption = config.GetSection("db").Get<PostgresOptions>();
+        services.Configure<PostgresOptions>(config.GetSection("db"));
         return services
             .AddSingleton(postgresOption)
             .AddTransient<IDataSchemaMigrator, DataSchemaMigrator>();

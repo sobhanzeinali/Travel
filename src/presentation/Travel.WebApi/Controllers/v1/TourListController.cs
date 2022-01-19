@@ -1,12 +1,11 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Travel.Application.TourLists.Commands.CreateTourList;
 using Travel.Application.TourLists.Commands.DeleteTourList;
 using Travel.Application.TourLists.Commands.UpdateTourList;
 using Travel.Application.TourLists.Queries.ExportTours;
 using Travel.Application.TourLists.Queries.GetTours;
 
-namespace Travel.WebApi.Controllers
+namespace Travel.WebApi.Controllers.v1
 {
     [ApiController]
     [Route("api/[controller]")]
