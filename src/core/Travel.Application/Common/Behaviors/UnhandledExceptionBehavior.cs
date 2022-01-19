@@ -1,31 +1,30 @@
-using MediatR;
+﻿using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Travel.Application.Common.Behaviors;
 
-public class UnhandledExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
-    where TRequest : IRequest<TResponse>
+namespace Travel.Application.Common.Behaviors
 {
-    private ILogger _logger;
+  public class UnhandledExceptionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest,TResponse> where TRequest : IRequest<TResponse>
+  {
+    private readonly ILogger<TRequest> _logger;
 
-    public UnhandledExceptionBehavior(ILogger logger)
+    public UnhandledExceptionBehavior(ILogger<TRequest> logger)
     {
-        _logger = logger;
+      _logger = logger;
     }
 
-    public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken,
-        RequestHandlerDelegate<TResponse> next)
+    public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
     {
-        try
-        {
-            return await next();
-        }
-        catch (Exception e)
-        {
-            var requestName = nameof(TRequest);
-            _logger.LogError(e, "Travel Request: Unhandled Exception for Request {Name} {@Request}", requestName,
-                request);
-            throw;
-        }
+      try
+      {
+        return await next();
+      }
+      catch (Exception ex)
+      {
+        var requestName = typeof(TRequest).Name;
+        _logger.LogError(ex, "Travel Request: Unhandled Exception for Request {Name} {@Request}", requestName, request);
+        throw;
+      }
     }
+  }
 }

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Travel.Application.Common.Behaviors;
 
-internal class PerformanceBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
+public class PerformanceBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {
     private readonly Stopwatch _timer;
     private readonly ILogger _logger;
