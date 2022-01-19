@@ -5,7 +5,7 @@
     <projectFile profileName="IIS Express">src/presentation/Travel.WebApi/Travel.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="">
+    <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="Finish Chapter 7">
       <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Exceptions/ApiException.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/DependencyInjection.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/Email/EmailDto.cs" afterDir="false" />
@@ -78,6 +78,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e54dc305e3e64d1401381e389c92efe1db453bd47a2254da5e6b643e61e6/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/94d413b2eb741b2144562e1941f67795032c6f0fbbe5ee67d9927d33425add/IConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///media/sobhan/1AD04E34D04E1683/Course/Tutarial/Practice/Travel/src/infrastructure/Travel.Data/Migrations/20211222005253_InitialCreate.Designer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12777fc8c60ccaa6418271ef2ea6562485b67c10b3799e4e6062947118bf65/Object.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f39f8b3179d5493cb62c91d7a3b5bd5d3de00/29/0dc559dc/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/160fab9af68a45319256f7e5e48f811f2de200/6e/88750d12/IsolationLevel.cs" root0="SKIP_HIGHLIGHTING" />
@@ -160,7 +161,7 @@
       <workItem from="1642040071511" duration="3209000" />
       <workItem from="1642532226332" duration="2054000" />
       <workItem from="1642553182315" duration="17147000" />
-      <workItem from="1642571956150" duration="1238000" />
+      <workItem from="1642571956150" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Database">
       <created>1640134942257</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641512654194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finish Chapter 7">
+      <created>1642573516155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642573516155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +225,8 @@
     <MESSAGE value="Add TourListController" />
     <MESSAGE value="Add TourListController.cs" />
     <MESSAGE value="Add Behaviors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Behaviors" />
+    <MESSAGE value="Finish Chapter 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Chapter 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,10 +249,10 @@
           <line>24</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="24" containingFunctionPresentation="method 'Get'">
             <startOffsets>
-              <option value="847" />
+              <option value="833" />
             </startOffsets>
             <endOffsets>
-              <option value="900" />
+              <option value="886" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -253,10 +262,10 @@
           <line>23</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="23" containingFunctionPresentation="method 'Get'">
             <startOffsets>
-              <option value="767" />
+              <option value="753" />
             </startOffsets>
             <endOffsets>
-              <option value="834" />
+              <option value="820" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
