@@ -10,19 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v2/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Helpers/ConfigureSwaggerOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Helpers/SwaggerDefaultValues.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Data/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/ApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/ApiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourPackageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourPackageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +33,17 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f7df6afec6fdf0b353d5e9cdc57d8ba131e10ad5c1dc959c58c6f0d6f0ce79/ExceptionFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///media/sobhan/1AD04E34D04E1683/Course/Tutarial/Practice/Travel/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e54dc305e3e64d1401381e389c92efe1db453bd47a2254da5e6b643e61e6/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/94d413b2eb741b2144562e1941f67795032c6f0fbbe5ee67d9927d33425add/IConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f39f8b3179d5493cb62c91d7a3b5bd5d3de00/29/0dc559dc/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/160fab9af68a45319256f7e5e48f811f2de200/f7/6392a1e1/DbConnectionStringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12777fc8c60ccaa6418271ef2ea6562485b67c10b3799e4e6062947118bf65/Object.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/160fab9af68a45319256f7e5e48f811f2de200/6e/88750d12/IsolationLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/acc1b77cc45c4a40776b82171fa4ec222605366a852c29d3fc53459da0e72d/Unit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f7df6afec6fdf0b353d5e9cdc57d8ba131e10ad5c1dc959c58c6f0d6f0ce79/ExceptionFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e54dc305e3e64d1401381e389c92efe1db453bd47a2254da5e6b643e61e6/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12777fc8c60ccaa6418271ef2ea6562485b67c10b3799e4e6062947118bf65/Object.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -204,7 +197,10 @@
       <workItem from="1642532226332" duration="2054000" />
       <workItem from="1642553182315" duration="17147000" />
       <workItem from="1642571956150" duration="1692000" />
-      <workItem from="1642614289421" duration="13002000" />
+      <workItem from="1642614289421" duration="13304000" />
+      <workItem from="1642735386176" duration="4894000" />
+      <workItem from="1642790024489" duration="7793000" />
+      <workItem from="1643072627388" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Database">
       <created>1640134942257</created>
@@ -248,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642573605284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Chapter 8 Api versioning">
+      <created>1642631604887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642631604887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +280,8 @@
     <MESSAGE value="Add Behaviors" />
     <MESSAGE value="Finish Chapter 7" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Chapter 8 Api versioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8 Api versioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,27 +289,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs</url>
           <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="24" containingFunctionPresentation="method 'Get'">
-            <startOffsets>
-              <option value="806" />
-            </startOffsets>
-            <endOffsets>
-              <option value="859" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="24" containingFunctionPresentation="method 'Get'" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs</url>
           <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="23" containingFunctionPresentation="method 'Get'">
-            <startOffsets>
-              <option value="726" />
-            </startOffsets>
-            <endOffsets>
-              <option value="793" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="23" containingFunctionPresentation="method 'Get'" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -323,29 +313,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" initialLine="30" containingFunctionPresentation="">
+          <line>102</line>
+          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" initialLine="102" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1503" />
+              <option value="3416" />
             </startOffsets>
             <endOffsets>
-              <option value="1539" />
+              <option value="3461" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/infrastructure/Travel.Data/Postgres/DataSchemaMigrator.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Postgres/DataSchemaMigrator.cs" initialLine="22" containingFunctionPresentation="method 'UpdateSchema'">
-            <startOffsets>
-              <option value="625" />
-            </startOffsets>
-            <endOffsets>
-              <option value="690" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
