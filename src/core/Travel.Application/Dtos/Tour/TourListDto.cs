@@ -7,10 +7,10 @@ public class TourListDto : IMapFrom<TourList>
 {
     public TourListDto()
     {
-        Items = new List<TourPackageDto>();
+        TourPackage = new List<TourPackageDto>();
     }
 
-    public IList<TourPackageDto> Items { get; set; }
+    public IList<TourPackageDto> TourPackage { get; set; }
     public int Id { get; set; }
     public string City { get; set; }
     public string Country { get; set; }

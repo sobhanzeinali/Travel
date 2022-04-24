@@ -5,7 +5,6 @@ using Travel.Application.Common.Interfaces;
 using Travel.Data.Contexts;
 using Travel.Data.Options;
 using Travel.Data.Postgres;
-using Travel.Domain.Settings;
 
 namespace Travel.Data;
 
@@ -14,11 +13,13 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructureData(this IServiceCollection services, IConfiguration config)
     {
         var postgresOption = config.GetSection("db").Get<PostgresOptions>();
+        var redisOption = config.GetSection("redis").Get<RedisOption>();
         services.Configure<PostgresOptions>(config.GetSection("db"));
 
         services.AddTransient<IDataSchemaMigrator, DataSchemaMigrator>();
 
         services.AddSingleton(postgresOption)
+            .AddSingleton(redisOption)
             .AddDbContext<ApplicationDbContext>(
                 option => option.UseNpgsql(postgresOption.ConnectionString));
         services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());

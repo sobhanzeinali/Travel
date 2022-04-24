@@ -1,5 +1,3 @@
-using System;
-
 namespace Travel.WebApi
 {
     public class WeatherForecast

@@ -33,6 +33,8 @@ public class UpdateTourListCommandHandler : IRequestHandler<UpdateTourListComman
         }
 
         entity.City = request.City;
+        entity.Country = request.Country;
+        entity.About = request.About;
         _context.TourLists.Add(entity);
         await _context.SaveChangesAsync(cancellationToken);
         return Unit.Value;

@@ -3,7 +3,6 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Travel.Application.Common.Interfaces;
-using Travel.Application.TourLists.Queries.GetTours;
 using Travel.Domain.Entities;
 
 namespace Travel.Data.Contexts;

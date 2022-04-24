@@ -1,6 +1,4 @@
 using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
 using Travel.Application.Common.Interfaces;
 using Travel.Domain.Entities;
 using Travel.Domain.Enums;

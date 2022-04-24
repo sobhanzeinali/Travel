@@ -1,5 +1,3 @@
-using System.Runtime.Serialization;
-
 namespace Travel.Application.Common.Exceptions;
 
 public class NotFoundException : Exception

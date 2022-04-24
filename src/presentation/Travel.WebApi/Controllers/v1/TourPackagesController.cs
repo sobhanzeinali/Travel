@@ -1,15 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Travel.Application.Dtos.Tour;
 using Travel.Application.TourPackages.Commands.CreateTourPackage;
 using Travel.Application.TourPackages.Commands.DeleteTourPackage;
 using Travel.Application.TourPackages.Commands.UpdateTourPackage;
 using Travel.Application.TourPackages.Commands.UpdateTourPackageDetail;
+using Travel.Application.TourPackages.Queries;
 
 namespace Travel.WebApi.Controllers.v1
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TourPackageController : ApiController
+    public class TourPackagesController : ApiController
     {
+        [HttpGet]
+        public async Task<ActionResult<List<TourPackageDto>>> GetTourPackages([FromQuery] GetTourPackagesQuery query)
+        {
+            return await Mediator.Send(query);
+        }
+
         [HttpPost]
         public async Task<ActionResult<int>> Create(CreateTourPackageCommand command)
         {
@@ -27,6 +35,7 @@ namespace Travel.WebApi.Controllers.v1
             await Mediator.Send(command);
             return NoContent();
         }
+
 
         [HttpPut("[action]")]
         public async Task<ActionResult> UpdateItemDetails(int id, UpdateTourPackageDetailCommand command)

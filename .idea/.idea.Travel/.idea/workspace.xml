@@ -10,29 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Interfaces/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/AuthSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/AuthorizeAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/JwtMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Travel.Identity.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourPackages/Queries/GetTourPackagesQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourPackages/Queries/GetTourPackagesQueryValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Options/RedisOption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Extensions/AppExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Extensions/ServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Travel.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/ValidationBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Behaviors/ValidationBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Common/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/Tour/TourListDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/Tour/TourListDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/Tour/TourPackageDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/Tour/TourPackageDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/UpdateTourList/UpdateTourListCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/UpdateTourList/UpdateTourListCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Queries/GetTours/GetToursQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Queries/GetTours/GetToursQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Queries/GetTours/ToursVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Queries/GetTours/ToursVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourPackages/Commands/CreateTourPackage/CreateTourPackageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourPackages/Commands/CreateTourPackage/CreateTourPackageCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/ApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/ApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/TourList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/TourList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Contexts/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/Contexts/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Data/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Data/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/JwtMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/JwtMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourPackageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourPackagesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/WeatherForecastController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/WeatherForecast.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +47,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sobhan Zeinali &lt;sobhan.zeinali@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -52,12 +63,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/511d4e206dae4ca0be58667fba28e4533de00/de/5a1f21fd/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63ee384769844530bc73c5391d8c6ee012200/db/8aea81a3/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7a397d32a96844da8ee820e6e5ea0b32ba00/04/65e3a2bd/Mediator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12e8815467bcf8c642d8f539939697320e338a6aa46925a46240a2deb15556/IServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/infrastructure/Travel.Data/Contexts/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/infrastructure/Travel.Data/Postgres/IDataSchemaMigrator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Filters/ApiExceptionFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/happylife/Public/Practice/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/happylife/Public/Practice/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/happylife/Public/Practice/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/happylife/Public/Practice/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/happylife/Public/Practice/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -225,7 +243,8 @@
       <workItem from="1650757691580" duration="962000" />
       <workItem from="1650760173138" duration="473000" />
       <workItem from="1650761166157" duration="658000" />
-      <workItem from="1650813958108" duration="1179000" />
+      <workItem from="1650813958108" duration="1489000" />
+      <workItem from="1650830663099" duration="7501000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Database">
       <created>1640134942257</created>
@@ -276,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642631604887</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finish Chapter 9">
+      <created>1650815729184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650815729184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,48 +342,36 @@
     <MESSAGE value="Finish Chapter 7" />
     <MESSAGE value="Commit" />
     <MESSAGE value="Chapter 8 Api versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8 Api versioning" />
+    <MESSAGE value="Finish Chapter 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Chapter 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs</url>
+          <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListsController.cs</url>
           <line>24</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="24" containingFunctionPresentation="method 'Get'" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListController.cs</url>
+          <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/TourListsController.cs</url>
           <line>23</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/TourListController.cs" initialLine="23" containingFunctionPresentation="method 'Get'" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs</url>
-          <line>131</line>
+          <line>85</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" initialLine="102" containingFunctionPresentation="">
             <startOffsets>
-              <option value="4340" />
+              <option value="2833" />
             </startOffsets>
             <endOffsets>
-              <option value="4385" />
+              <option value="2878" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs</url>
-          <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" initialLine="24" containingFunctionPresentation="method 'Handle'">
-            <startOffsets>
-              <option value="762" />
-            </startOffsets>
-            <endOffsets>
-              <option value="936" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

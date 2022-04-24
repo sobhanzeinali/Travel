@@ -9,7 +9,7 @@ namespace Travel.WebApi.Controllers.v1
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TourListController : ApiController
+    public class TourListsController : ApiController
     {
         [HttpGet]
         public async Task<ActionResult<ToursVm>> Get()
