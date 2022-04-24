@@ -13,5 +13,6 @@ public class TourListDto : IMapFrom<TourList>
     public IList<TourPackageDto> Items { get; set; }
     public int Id { get; set; }
     public string City { get; set; }
+    public string Country { get; set; }
     public string About { get; set; }
 }

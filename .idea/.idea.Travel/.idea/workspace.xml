@@ -10,8 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1479b58a-4d24-4e83-ac68-24100b98b104" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Common/Interfaces/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Application/Dtos/User/AuthenticateResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Travel.Domain/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/AuthSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/AuthorizeAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Helpers/JwtMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/Travel.Identity/Travel.Identity.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/dataSources/d79fb91d-e25c-486c-9dc6-1421ac1b3b46/storage_v2/_src_/database/TravelTour.shx3nw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Travel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Travel.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Travel.Application/Travel.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/ApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Controllers/v1/ApiController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Travel.WebApi.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" afterDir="false" />
@@ -33,20 +52,20 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f7df6afec6fdf0b353d5e9cdc57d8ba131e10ad5c1dc959c58c6f0d6f0ce79/ExceptionFilterAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f10f2a1f3bbdbc3696823de50e6726ba2ae7f8cf2e6dfc487a9c0b8c1f7b4/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///media/sobhan/1AD04E34D04E1683/Course/Tutarial/Practice/Travel/src/presentation/Travel.WebApi/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4e54dc305e3e64d1401381e389c92efe1db453bd47a2254da5e6b643e61e6/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/94d413b2eb741b2144562e1941f67795032c6f0fbbe5ee67d9927d33425add/IConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f39f8b3179d5493cb62c91d7a3b5bd5d3de00/29/0dc559dc/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/160fab9af68a45319256f7e5e48f811f2de200/f7/6392a1e1/DbConnectionStringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12777fc8c60ccaa6418271ef2ea6562485b67c10b3799e4e6062947118bf65/Object.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/160fab9af68a45319256f7e5e48f811f2de200/6e/88750d12/IsolationLevel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/acc1b77cc45c4a40776b82171fa4ec222605366a852c29d3fc53459da0e72d/Unit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63ee384769844530bc73c5391d8c6ee012200/db/8aea81a3/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7a397d32a96844da8ee820e6e5ea0b32ba00/04/65e3a2bd/Mediator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/infrastructure/Travel.Data/Contexts/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/infrastructure/Travel.Data/Postgres/IDataSchemaMigrator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Filters/ApiExceptionFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/presentation/Travel.WebApi/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="22YUvKYdvI90TQ0pftAp1EpxD9w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,20 +75,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ASP.NET-Core-and-Vue.js/Chapter07/Travel/src/presentation/Travel.WebApi/Controllers/WeatherForecastController.cs" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Travel.WebApi">
     <configuration name="Travel.SchemaUpdater" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -201,6 +221,11 @@
       <workItem from="1642735386176" duration="4894000" />
       <workItem from="1642790024489" duration="7793000" />
       <workItem from="1643072627388" duration="633000" />
+      <workItem from="1650742031828" duration="13107000" />
+      <workItem from="1650757691580" duration="962000" />
+      <workItem from="1650760173138" duration="473000" />
+      <workItem from="1650761166157" duration="658000" />
+      <workItem from="1650813958108" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Database">
       <created>1640134942257</created>
@@ -260,6 +285,16 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -299,32 +334,36 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Filters/ApiExceptionFilter.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Filters/ApiExceptionFilter.cs" initialLine="28" containingFunctionPresentation="method 'HandleException'">
-            <startOffsets>
-              <option value="855" />
-            </startOffsets>
-            <endOffsets>
-              <option value="895" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs</url>
-          <line>102</line>
+          <line>131</line>
           <properties documentPath="$PROJECT_DIR$/src/presentation/Travel.WebApi/Program.cs" initialLine="102" containingFunctionPresentation="">
             <startOffsets>
-              <option value="3416" />
+              <option value="4340" />
             </startOffsets>
             <endOffsets>
-              <option value="3461" />
+              <option value="4385" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/src/core/Travel.Application/TourLists/Commands/CreateTourList/CreateTourListCommand.cs" initialLine="24" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="762" />
+            </startOffsets>
+            <endOffsets>
+              <option value="936" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

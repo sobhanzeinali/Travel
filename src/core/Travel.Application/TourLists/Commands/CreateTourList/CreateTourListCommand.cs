@@ -24,7 +24,9 @@ namespace Travel.Application.TourLists.Commands.CreateTourList
         {
             var entity = new TourList()
             {
-                City = request.City
+                City = request.City,
+                Country = request.Country,
+                About = request.About
             };
             _context.TourLists.Add(entity);
             await _context.SaveChangesAsync(cancellationToken);
